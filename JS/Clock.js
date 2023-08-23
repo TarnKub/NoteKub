@@ -12,7 +12,7 @@ updateTime();
 function updateTime() {
     var cd = new Date();
     clock.time = zeroPadding(cd.getHours(), 2) + ':' + zeroPadding(cd.getMinutes(), 2) + ':' + zeroPadding(cd.getSeconds(), 2);
-    clock.date = zeroPadding(cd.getMonth()+1, 2) + '-' + zeroPadding(cd.getDate(), 2) + '-' + zeroPadding(cd.getFullYear(), 4) + ' ' + week[cd.getDay()];
+    clock.date = zeroPadding(cd.getDate(), 2) + '-' + zeroPadding(cd.getMonth()+1, 2) + '-' + zeroPadding(cd.getFullYear(), 4) + ' ' + week[cd.getDay()];
 };
 
 function zeroPadding(num, digit) {
