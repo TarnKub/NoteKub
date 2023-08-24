@@ -40,6 +40,8 @@
   }
   
   .glowing-txt {
+    margin-top: 6%;
+    padding-top: 2.3%;
     font-size: 10vw;
     font-family: 'Courier New', Courier, monospace;
     color: hsl(186 100% 69%);
@@ -220,12 +222,12 @@
     left: 10%;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     height: 100vh;
     width: 100vw;
   }
   
   .additional-text1 {
+    margin-top: 3%;
     font-size: 1.6vw;
     font-family: 'Noto Sans Thai', sans-serif;
     color: hsl(186 100% 69%);
